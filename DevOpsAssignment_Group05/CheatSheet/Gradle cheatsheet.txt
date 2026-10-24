@@ -10,3 +10,21 @@ Run tests:  gradle test
 
 Assemble the outputs without running tests:  gradle assemble
 
+### Project Configuration
+
+Initialize a new Gradle project:  gradle init
+
+Generate Gradle wrapper files:    gradle wrapper
+
+Display project properties:       gradle properties   
+
+Display the Gradle version:       gradle --version
+
+
+Dependency Management
+
+Display project dependencies:    gradle dependencies
+
+Provide insight into a specific dependency:  gradle dependencyInsight --dependency junit
+
+Refresh dependencies:   gradle build --refresh-dependencies
