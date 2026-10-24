@@ -21,10 +21,22 @@ Display project properties:       gradle properties
 Display the Gradle version:       gradle --version
 
 
-Dependency Management
+ ### Dependency Management
 
 Display project dependencies:    gradle dependencies
 
 Provide insight into a specific dependency:  gradle dependencyInsight --dependency junit
 
 Refresh dependencies:   gradle build --refresh-dependencies
+
+
+
+###  Build Configuration
+
+Exclude tests from the build:   gradle build -x test
+
+Run tasks in parallel:   gradle build --parallel
+
+Continue building even if some tasks fail:  gradle build --continue
+
+Create a build scan report:  gradle build --scan
