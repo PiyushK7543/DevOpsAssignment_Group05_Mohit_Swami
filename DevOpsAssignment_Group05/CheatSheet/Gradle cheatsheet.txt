@@ -40,3 +40,16 @@ Run tasks in parallel:   gradle build --parallel
 Continue building even if some tasks fail:  gradle build --continue
 
 Create a build scan report:  gradle build --scan
+
+
+### Running Specific Tasks
+
+Run a specific task with info logging:  gradle test --info
+
+Run a task with debug logging:  gradle test --debug
+
+Show stacktrace for errors during task execution:  gradle test --stacktrace
+
+Run a task without rebuilding:   gradle test --no-rebuild
+
+Use the build cache for a custom task: gradle myCustomTask --build-cache
